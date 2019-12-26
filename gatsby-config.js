@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/bicycle_blog",
+  pathPrefix: "/bike-sharing",
   siteMetadata: {
     title: `Library Coding Interest Group`,
     description: `Bicycle.`,
