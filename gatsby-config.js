@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/bike-sharing",
+  pathPrefix: "/bicycle_blog",
   siteMetadata: {
     title: `Library Coding Interest Group`,
     description: `Bicycle.`,
@@ -7,10 +7,10 @@ module.exports = {
   },
   plugins: [
     {
-      "resolve": `gatsby-source-drupal`,
-      "options": {
-        "baseUrl": `http://drupalvm.test/`,
-        "apiBase": `jsonapi`, // optional, defaults to `jsonapi`
+      resolve: `gatsby-source-drupal`,
+      options: {
+        baseUrl: `http://drupalvm.test/`,
+        apiBase: `jsonapi`, // optional, defaults to `jsonapi`
       },
     },
     // {
